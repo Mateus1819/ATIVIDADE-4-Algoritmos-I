@@ -1,0 +1,24 @@
+placa = int(input("Digite o último algarismo da placa do carro: "))
+
+if placa >= 0 and placa <= 2:
+    print("Não circular na segunda-feira.")
+elif placa >= 3 and placa <= 4:
+    print("Não circular na terça-feira.")
+elif placa >= 5 and placa <= 6:
+    print("Não circular na quarta-feira.")
+elif placa >= 7 and placa <= 8:
+    print("Não circular na quinta-feira.")
+elif placa == 9:
+    print("Não circular na sexta-feira.")
+else:
+    print("Placa inválida.")
+
+#1. Solicite ao usuário que informe o último algarismo da placa do carro.
+#2 Leia o valor informado pelo usuário e armazene na variável "ultimo_algarismo".
+#3. Verifique a faixa de valores em que o "ultimo_algarismo" se encontra:
+#    3.1- Se o último algarismo estiver entre 0 e 2, mostre a mensagem "Não circular segunda-feira".
+#    3.2- Se o último algarismo estiver entre 3 e 4, mostre a mensagem "Não circular terça-feira".
+#    3.3- Se o último algarismo estiver entre 5 e 6, mostre a mensagem "Não circular quarta-feira".
+#    3.4- Se o último algarismo estiver entre 7 e 8, mostre a mensagem "Não circular quinta-feira".
+#    3.5- Se o último algarismo for 9, mostre a mensagem"Não circular sexta-feira".
+#4. Fim do codigo
